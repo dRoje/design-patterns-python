@@ -1,0 +1,16 @@
+class ThinCrustDough: pass
+class MariniaraSauce: pass
+class ReggianoChesse: pass
+class Garlic: pass
+class Onion: pass
+class Mashroom: pass
+class RedPepper: pass
+class SlicedPepperoni: pass
+class FreshClams: pass
+class ThickCrustDough: pass
+class PlumTomatoSauce: pass
+class Mozzarella: pass
+class EggPlant: pass
+class Olives: pass
+class Spinach: pass
+class FrozenClams: pass
