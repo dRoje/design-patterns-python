@@ -1,5 +1,6 @@
 from pancakeMenu import PancakeMenu
 from dinerMenu import DinerMenu
+from cafeMenu import CafeMenu
 from waitress import Waitress
 
 
@@ -7,8 +8,9 @@ class MenuTestDrive:
     def test(self):
         pancakeHouseMenu = PancakeMenu()
         dinerMenu = DinerMenu()
+        cafeMenu = CafeMenu()
 
-        waitress = Waitress(pancakeHouseMenu, dinerMenu)
+        waitress = Waitress([pancakeHouseMenu, dinerMenu, cafeMenu])
 
         waitress.printMenu()
 
