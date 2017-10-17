@@ -1,14 +1,11 @@
 from tkinter import *
-from view import DJView
+from designPatterns.mvc.DJView import DJView
+from designPatterns.mvc.beatModel import BeatModel
+from designPatterns.mvc.beatController import BeatController
 
-root = Tk()
+beatModel = BeatModel()
+beatController = BeatController(beatModel)
 
+beatController.view.runView()
 
-DJView(root).createView()
-
-print(1)
-print(2)
-print(3)
-
-root.mainloop()
 
