@@ -3,6 +3,7 @@ from observer import Observer
 from subject import Subject
 from weatherData import WeatherData
 
+
 class CurrentConditionsDisplay(Observer, DisplayElement):
     def __init__(self, weatherData):
         self.temperature = None

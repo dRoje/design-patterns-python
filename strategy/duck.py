@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 from flyBehavior import FlyBehavior, FlyNoWay, FlyWithWings
 from quackBehavior import QuackBehavior, Quack, Squeak, MuteQuack
 
+
 class Duck:
     __metaclass__ = ABCMeta
 
